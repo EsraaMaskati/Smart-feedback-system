@@ -11,9 +11,9 @@ import RPi.GPIO as GPIO
 
 
 # Azure IoT Hub
-URI = 'SystemFeedbackHub.azure-devices.net'
-KEY = 'l481DinaHxQjOuJMEbqBIS3MHcNZ86fFV+5MJRJy8gw='
-IOT_DEVICE_ID = 'RaspberryPi'
+URI = '[your_iot_hub].azure-devices.net'
+KEY = '[iothubowner Primary Key]'
+IOT_DEVICE_ID = 'ID of the registered IoT device within IoT Hub'
 POLICY = 'iothubowner'
 
 
